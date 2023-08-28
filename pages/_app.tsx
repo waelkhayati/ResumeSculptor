@@ -20,7 +20,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   } else {
     return (
       <>
-        <CookieConsent
+        {/* <CookieConsent
                 location="bottom"
                 buttonText="Akzeptieren"
                 cookieName="cookieBanner"
@@ -30,7 +30,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
                 expires={150}
               >
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem dolorum autem corporis eos, beatae sapiente omnis quia rem expedita officia.
-        </CookieConsent>
+        </CookieConsent> */}
         <Component {...pageProps} />
       </>
     );    
